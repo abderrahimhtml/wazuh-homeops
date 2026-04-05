@@ -44,13 +44,13 @@ Windows 11 (Hyper-V)
 
 ## Results
 
-- 200+ security events captured in first hours
-- 10 authentication failures detected from SSH attack simulation
-- MITRE ATT&CK mapping: Password Guessing, SSH techniques identified
-- Real-time alerting with severity classification
-
----
-
+- 611+ security events captured in first hours
+- 381 authentication failures detected
+- 10 successful authentications tracked
+- MITRE ATT&CK techniques identified: Password Guessing, SSH, Brute Force, Valid Accounts, Sudo
+- Real-time alerting with automatic severity classification
+- Active Response configured to block brute force IPs automatically
+- File Integrity Monitoring active on critical system files
 ## Skills demonstrated
 
 - SIEM deployment and configuration (Wazuh)
